@@ -59,6 +59,7 @@ section h1{
     border-radius: 50px;
     margin-left: auto;
     transform: translate(30% -40%);
+    overflow-y: hidden;
 }
 
 .sectionB{
@@ -67,4 +68,48 @@ section h1{
     border-radius: 50px;
     margin-right: auto;
     transform: translate(-20% -50%);
+}
+
+main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+
+main .left {
+    display: grid;
+    grid-template-rows: repeat(5, 20%);
+    width: 80%;
+    margin-left: 100px;
+}
+
+main .left .option{
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: hidden;
+    
+}
+main .left .option img {
+    height: 70px;
+    width: 70px;
+}
+
+main .left .option div {
+    margin: auto;
+
+}
+
+main option h1 {
+    font-size: 30px;
+}
+
+main option p {
+    font-size: 20px;
+}
+
+main .right img {
+    width: 80%;
+    height: 100%;
+    overflow-y: hidden;
 }
