@@ -172,3 +172,35 @@ main .right img {
     margin-left: 20%;
 }
 
+.customers {
+    margin-top: 150px;
+}
+.customers h1 {
+    margin-left: 100px;
+    margin-bottom: 70px;
+}
+.customers .cards{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}
+.customers .cards .left img{
+    width: 50%;
+    border-radius: 30px;
+    border-width: 10px;
+
+    margin-left: 100px;
+
+}
+.customers .cards .right {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    background-color: rgb(246, 246, 237);
+    border-radius: 40px;
+    color: blue;
+}
+
+.customers .cards .right p{
+    padding-left: 15px;
+    
+}
